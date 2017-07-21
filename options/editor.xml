@@ -1,33 +1,16 @@
 <application>
   <component name="EditorSettings">
-    <option name="ARE_LINE_NUMBERS_SHOWN" value="true" />
+    <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
     <option name="IS_ALL_SOFTWRAPS_SHOWN" value="true" />
     <option name="IS_CAMEL_WORDS" value="true" />
   </component>
   <component name="TodoConfiguration">
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btodo\b.*">
-      <option name="FOREGROUND" value="22252e" />
-      <option name="BACKGROUND" value="b48ead" />
-      <option name="FONT_TYPE" value="1" />
-      <option name="ERROR_STRIPE_COLOR" value="b48ead" />
-    </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\bfixme\b.*">
-      <option name="FOREGROUND" value="22252e" />
-      <option name="BACKGROUND" value="b48ead" />
-      <option name="FONT_TYPE" value="1" />
-      <option name="ERROR_STRIPE_COLOR" value="b48ead" />
-    </pattern>
-    <pattern icon="default" useCustomColors="false" case-sensitive="false" pattern="\btest\b/*">
-      <option name="FOREGROUND" value="22252e" />
-      <option name="BACKGROUND" value="b48ead" />
-      <option name="FONT_TYPE" value="1" />
-      <option name="ERROR_STRIPE_COLOR" value="b48ead" />
-    </pattern>
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern pattern="\btest\b/*" />
     <filter name="FIX">
       <pattern index="1" />
     </filter>
-  </component>
-  <component name="XmlEditorOptions">
-    <option name="insertQuotesForAttributeValue" value="false" />
   </component>
 </application>
