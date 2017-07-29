@@ -27,7 +27,7 @@
     <option name="FILESTATUS_addedOutside" value="629755" />
     <option name="FILESTATUS_changelistConflict" value="d5756c" />
     <option name="FILESTATUS_modifiedOutside" value="6897bb" />
-    <option name="GUTTER_BACKGROUND" value="242424" />
+    <option name="GUTTER_BACKGROUND" value="1f1f1f" />
     <option name="INDENT_GUIDE" value="3c3f41" />
     <option name="LINE_NUMBERS_COLOR" value="656565" />
     <option name="METHOD_SEPARATORS_COLOR" value="656565" />
@@ -36,7 +36,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="3e403b" />
     <option name="SELECTED_INDENT_GUIDE" value="697f3f" />
     <option name="SELECTED_TEARLINE_COLOR" value="898941" />
-    <option name="SELECTION_BACKGROUND" value="898941" />
+    <option name="SELECTION_BACKGROUND" value="dde0b3" />
     <option name="SELECTION_FOREGROUND" value="0" />
     <option name="TEARLINE_COLOR" value="656565" />
     <option name="WHITESPACES" value="505050" />
