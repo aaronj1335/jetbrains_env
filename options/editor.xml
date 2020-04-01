@@ -1,7 +1,7 @@
 <application>
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="21" />
-    <option name="FONT_SCALE" value="1.75" />
+    <option name="FONT_SIZE" value="13" />
+    <option name="FONT_SCALE" value="1.0" />
   </component>
   <component name="EditorSettings">
     <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
@@ -9,12 +9,10 @@
     <option name="SHOW_BREADCRUMBS" value="false" />
     <option name="IS_ALL_SOFTWRAPS_SHOWN" value="true" />
   </component>
-  <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
-    <pattern pattern="\btest\b/*" />
-    <filter name="FIX">
-      <pattern index="1" />
-    </filter>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_IMPORTS" value="false" />
+  </component>
+  <component name="CodeInsightSettings">
+    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
   </component>
 </application>
