@@ -5,12 +5,6 @@
     <variable name="W" expression="&quot;ThisConditionMet&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="t4" value="@org.junit.Test&#10;public void $P$_Should$D$_When$W$() {&#10;    $END$&#10;}" description="Add a JUnit 4 Test" toReformat="true" toShortenFQNames="true" useStaticImport="true">
@@ -19,12 +13,6 @@
     <variable name="W" expression="&quot;ThisConditionMet&quot;" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="at" value="com.google.common.truth.Truth.assertThat($TEST_CONDITION$).is$TEST_OUTCOME$;" description="assert that assertion" toReformat="true" toShortenFQNames="true" useStaticImport="true">
@@ -32,35 +20,17 @@
     <variable name="TEST_OUTCOME" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="mo" value="org.mockito.Mockito.mock($CLAZZ$);" description="Mockito mock" toReformat="true" toShortenFQNames="true" useStaticImport="true">
     <variable name="CLAZZ" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="ign" value="@org.junit.Ignore" description="@Ignore" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
   <template name="t4s" value="@org.junit.Ignore&#10;@org.junit.Test&#10;public void $P$_Should$D$_When$W$() {&#10;    // TEST: write a test for this case&#10;    $END$&#10;}" description="Write a test spec (Ignored currently)" toReformat="true" toShortenFQNames="true" useStaticImport="true">
@@ -69,12 +39,6 @@
     <variable name="W" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
-      <option name="JAVA_STATEMENT" value="true" />
-      <option name="JAVA_EXPRESSION" value="true" />
-      <option name="JAVA_DECLARATION" value="true" />
-      <option name="JAVA_COMMENT" value="true" />
-      <option name="JAVA_STRING" value="true" />
-      <option name="COMPLETION" value="true" />
     </context>
   </template>
 </templateSet>

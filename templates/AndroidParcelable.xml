@@ -13,11 +13,9 @@
   </template>
   <template name="ParcelBoolean" value="dest.writeInt($bool$ ? 0 : 1);" description="writes a single boolean value to a parcel" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="bool" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="UnparcelBoolean" value="$bool$ = 0 == in.readInt();" description="reads a single boolean value from a parcel" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="bool" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="UnparcelIntArray" value="int $read$[] = in.createIntArray();&#10;in.readIntArray($read$);" description="Unparcels an int array" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="read" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
